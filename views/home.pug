@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introsection 
+        div Welcome to ABCD Dance Academy
+        div.small Anybody Can Dance 
+
+    section#missionsection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="https://i.pinimg.com/736x/4b/8b/85/4b8b854a6854b3bea0f0310c95e04d8e--dancing-love-and-lust.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsam ullam doloribus tempore dolore odit velit quod, illo omnis vitae similique cupiditate debitis eligendi? Vero provident ipsam nemo corporis alias eveniet, qui vel necessitatibus?
+        div.card
+            h3 Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzq8lDYUr_FxQhS0p9zaFcSENKHerDFf3xfQ47pEQOpNIo6kBwEvL_CRip0FQh0FoYonQ&usqp=CAU")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsam ullam doloribus tempore dolore odit velit quod, illo omnis vitae similique cupiditate debitis eligendi? Vero provident ipsam nemo corporis alias eveniet, qui vel necessitatibus?
+        div.card
+            h3 Freestyle Dancing
+            div.card-box
+                div.card-img
+                    img(src="https://img.freepik.com/free-photo/young-sportive-girl-white-stylish-cloth-dancing-hiphop-training-isolated-purple-bacground-neon_155003-45639.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsam ullam doloribus tempore dolore odit velit quod, illo omnis vitae similique cupiditate debitis eligendi? Vero provident ipsam nemo corporis alias eveniet, qui vel necessitatibus?
+                    
+    section#sponsorssection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-2Bnsr8QaFuZhCHbi6Na7N8Vbn62V4-uYkg&usqp=CAU", alt="Sponsor Image", class="spImage")
+            img(src="https://i.pinimg.com/originals/98/ab/fc/98abfcccd053503e8acf8093010eaef0.png", alt="Sponsor Image", class="spImage")
+            img(src="https://e7.pngegg.com/pngimages/519/252/png-clipart-logo-brand-adidas-sponsor-shoe-brands-angle-text-thumbnail.png", alt="Sponsor Image", class="spImage")
+            img(src="https://www.clipartmax.com/png/middle/247-2471732_carlsberg-logo-carlsberg-symbol-meaning-history-and-logo-sponsor-football-png.png", alt="Sponsor Image", class="spImage")
